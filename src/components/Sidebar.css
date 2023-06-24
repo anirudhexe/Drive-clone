@@ -1,0 +1,59 @@
+/* .sidebar{
+    background-color: #f7f9fc;
+} */
+
+.sidebar-btn{
+    margin-top: 10px;
+}
+
+.sidebar-options{
+    margin-top: 10px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.option:hover{
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
+
+.option span{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.option-active{
+    background-color: #c2e7ff;
+}
+
+.progress-bar{
+    padding: 0px 20px;
+}
+
+.progress-bar span{
+    display: block;
+    font-size: 13px;
+    color: #333;
+}
+
+.modal-pop{
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-heading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
